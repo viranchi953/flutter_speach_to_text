@@ -1,16 +1,10 @@
-# speak
+GitHub link for complete code :- 
+https://github.com/viranchi953/flutter_speach_to_text
 
-A new Flutter project.
+Add this two lines in AndroidManifest.xml file :-
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Pub Dev Dependencies used :-
+speech_to_text: ^7.0.0
+link :- https://pub.dev/packages/speech_to_text
